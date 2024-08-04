@@ -1,0 +1,26 @@
+{
+  "name": "map-simplifier",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "devDependencies": {
+    "aws-sdk": "2.814.0",
+    "fs": "^0.0.1-security",
+    "jest": "^29.7.0",
+    "mapshaper": "^0.6.98"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "jest": {
+    "transform": {},
+    "testEnvironment": "jest-environment-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
